@@ -18,9 +18,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Auteur:
 Rens Koster
   #### Je startniveau:
-Blauw/rood
+Blauw
   #### Je focus:
-Responsive 
+Focus plane
 </details>
 
 
@@ -85,7 +85,10 @@ Main page
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Lastig om te zien wat h1, h2 en h3 is.
+  Weer moeite met inkomen in coderen.
+
+
 
 
   ### Agenda voor meeting
@@ -93,18 +96,14 @@ Main page
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  |  Hoe krijg ik  | Kan je beter flex  |  Hoe moet ik |
+  |  mijn nav bar  | of grid gebruiken  |  dit flexen  |
+  |  doorzichtig   | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  -Grid werkt het beste
+  -Articles ipv li 
 
 </details>
 
@@ -118,7 +117,9 @@ Main page
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  -Sommige grids maken is nog heel lastig
+  -Weet niet hoe ik eerste section moet doen
+
 
 
   ### Agenda voor meeting
@@ -126,9 +127,9 @@ Main page
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Hoe krijg ik   | Hamburger menu     |Welke selectoren| 
+  | artikel achter | in het midden      | gebruiker    |
+  | nav bar        | positioneren       | ...          | ...              |
 
 
   ### Verslag van meeting
