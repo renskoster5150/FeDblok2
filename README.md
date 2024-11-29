@@ -18,9 +18,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Auteur:
 Rens Koster
   #### Je startniveau:
-Blauw
+Blauw/rood
   #### Je focus:
-Focus plane
+Service plane
 </details>
 
 
