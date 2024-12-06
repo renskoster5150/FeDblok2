@@ -135,10 +135,9 @@ Main page
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  Artikel achter nav bar door margin - te doen
+  Li ipv grid bij red bull tv
+  h3 boven img
 
 </details>
 
@@ -152,7 +151,18 @@ Main page
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  <img src="readme-images/WCAG2_5311.HEIC">
+  <img src="readme-images/WCAG2_5312.HEIC">
+  <img src="readme-images/WCAG2_5313.HEIC">
+  <img src="readme-images/WCAG2_5314.HEIC">
+  <img src="readme-images/WCAG2_5315.HEIC">
+
+
+
+  
+
+
+
 
 </details>
 
