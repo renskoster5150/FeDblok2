@@ -22,65 +22,69 @@ function handleKeydown(event) {
 
 // Carrousel
 
-const carrousel = document.querySelector("#carrousel div");
-const prevButton = document.querySelector("a[href='previous']");
-const nextButton = document.querySelector("a[href='next']");
-const scrollAmount = 200;
+// const carrousel = document.querySelector("#carrousel div");
+// const prevButton = document.querySelector("a[href='previous']");
+// const nextButton = document.querySelector("a[href='next']");
+// const scrollAmount = 200;
 
-prevButton.addEventListener("click", (event) => {
-    event.preventDefault(); 
-    carrousel.scrollBy({
-        left: -scrollAmount,
-        behavior: "smooth", 
-     });
-});
+// prevButton.addEventListener("click", (event) => {
+//     event.preventDefault(); 
+//     carrousel.scrollBy({
+//         left: -scrollAmount,
+//         behavior: "smooth", 
+//      });
+// });
     
-nextButton.addEventListener("click", (event) => {
-    event.preventDefault(); 
-    carrousel.scrollBy({
-        left: scrollAmount,
-        behavior: "smooth", 
-    });
-});
+// nextButton.addEventListener("click", (event) => {
+//     event.preventDefault(); 
+//     carrousel.scrollBy({
+//         left: scrollAmount,
+//         behavior: "smooth", 
+//     });
+// });
 
-// slideshow
+// // slideshow
   
 
 // video
-const video = document.querySelector('.Redbullvideo video');
-const playButton = document.querySelector('videocontrol');
+// const video = document.querySelector('.Redbullvideo video');
+// const playButton = document.querySelector('.custom-video__control');
 
-
-playButton.addEventListener('click', () => {
-    video.play();
-    playButton.style.display = 'none';
-});
-video.addEventListener('pause', () => {
-    playButton.style.display = 'block';
-});
-
-// Open modal
-// const modal = document.querySelector(".dialog");
-// const closeModal = document.querySelector(".closemodal");
-// const openModal = document.querySelector(".favbutton");
-
-// openModal.addEventListener("click", () => {
-//     modal.showModal();
+// playButton.addEventListener('click', () => {
+//     video.play();
+//     playButton.style.display = 'none';
 // });
 
-// closeModal.addEventListener("click", () => {
-//     modal.close();
-//   });
-const dialog = document.querySelector("dialog");
-const showButton = document.querySelector("dialog + button");
-const closeButton = document.querySelector("dialog button");
+// video.addEventListener('pause', () => {
+//     playButton.style.display = 'block';
+// });
 
-// "Show the dialog" button opens the dialog modally
-showButton.addEventListener("click", () => {
-  dialog.showModal();
+// scroll ani
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry)=>{
+        console.log(entry)
+        if (entry.isIntersecting){
+            entry.target.classList.add('show');
+        } else {
+            entry.target.classList.remove('show');
+        }
+    });
 });
 
-// "Close" button closes the dialog
-closeButton.addEventListener("click", () => {
-  dialog.close();
+const hiddenElements = document.querySelectorAll('.hidden')
+hiddenElements.forEach((el) => observer.observe(el));
+
+
+
+// modal
+const modal = document.querySelector(".dialog");
+const openModal = document.querySelector(".favbutton");
+const closeModal = document.querySelector(".close-button");
+
+openModal.addEventListener("click", () => {
+  modal.showModal();
+});
+
+closeModal.addEventListener("click", () => {
+  modal.close();
 });

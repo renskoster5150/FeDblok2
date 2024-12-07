@@ -1355,40 +1355,71 @@ nav.toonMenu .hamburgeruit {
 }
 /* Modal */
 .dialog{
-	position: relative;
+	position: fixed;
+	width: 90%;
+  	top: 50%; 
+  	left: 50%;
+  	transform: translate(-50%, -50%); 
 	background-color: white;
-	display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 	background-color:var(--article-bg);
-	min-height: 15em;
-	padding-left: 5.5em;
-	padding-right: 5.5em;
-	padding-top:1em;
-	margin: 1em;
-	border-radius: 0.5em;
-	box-shadow:  (0px 8px 12px 0px rgba(0, 15, 30, 0.0392156863), 0px 2px 4px 0px rgba(0, 15, 30, 0.0196078431));
 	text-align: center;
+	border: none;
+	border-radius: 25px;
 }
-.dialog button:nth-of-type(1){
-	padding: 0.8em 3.5em 0.8em 3.5em;
+form{
+	display: grid;
+	gap: 1em;
+	margin-top: 3em;
+}
+form label{
+	text-align: left;
+	font-size: 20px;
+	margin-left: 1rem;
+}
+form label input{
+	font-size: 20px;
+	padding-right: 2em;
+}
+.dialog form button:nth-of-type(1){
+	background-color: var(--button-color);
+	color: white;
+	text-decoration: none;
+	padding: 0.8rem 1.5rem;
 	border-radius: 25px;
 	font-size: 1rem;
-	background-color: var(--button-color);
+	text-align: center;
 	margin-bottom: 1rem;
-	color: white;
+	margin-top: 1rem;
 	border: none;
+
 }
-.dialog button:nth-of-type(2){
-	width: 30px;
-	position: relative;
-	top: -245px;
-    right: -250px;
-	text-decoration: none;
-	border-radius: 500em;
-	padding-top: 0.5rem;
-	align-items: center;
+.dialog button:nth-of-type(1){
+	padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-text);
+    text-decoration: none;
+    background-color: #F8F8F8; 
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    cursor: pointer; 
+    box-shadow: none;
 }
-.dialog button:nth-of-type(2) img{
-	padding-bottom: 0.1rem;
+.dialog::backdrop{
+	background-color: #1111115e;
+}
+/* scroll ani */
+.hidden{
+	opacity: 0;
+	transform: translateY(100%);
+	transition: all 500ms;
+}
+.show{
+	opacity: 1;
+	transform: translateY(0);
+}
+@media (prefers-reduced-motion) {
+	.hidden{
+		transition: none;
+	}
 }
