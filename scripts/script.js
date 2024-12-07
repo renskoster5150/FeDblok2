@@ -34,7 +34,6 @@ prevButton.addEventListener("click", (event) => {
         behavior: "smooth", 
      });
 });
-
     
 nextButton.addEventListener("click", (event) => {
     event.preventDefault(); 
@@ -44,15 +43,44 @@ nextButton.addEventListener("click", (event) => {
     });
 });
 
-
+// slideshow
+  
 
 // video
 const video = document.querySelector('.Redbullvideo video');
-const playButton = document.querySelector('.custom-video__control');
+const playButton = document.querySelector('videocontrol');
 
 
 playButton.addEventListener('click', () => {
     video.play();
     playButton.style.display = 'none';
 });
+video.addEventListener('pause', () => {
+    playButton.style.display = 'block';
+});
 
+// Open modal
+// const modal = document.querySelector(".dialog");
+// const closeModal = document.querySelector(".closemodal");
+// const openModal = document.querySelector(".favbutton");
+
+// openModal.addEventListener("click", () => {
+//     modal.showModal();
+// });
+
+// closeModal.addEventListener("click", () => {
+//     modal.close();
+//   });
+const dialog = document.querySelector("dialog");
+const showButton = document.querySelector("dialog + button");
+const closeButton = document.querySelector("dialog button");
+
+// "Show the dialog" button opens the dialog modally
+showButton.addEventListener("click", () => {
+  dialog.showModal();
+});
+
+// "Close" button closes the dialog
+closeButton.addEventListener("click", () => {
+  dialog.close();
+});
