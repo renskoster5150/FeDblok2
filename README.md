@@ -53,11 +53,11 @@ Main page
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  <img src="readme-images/WCAG1_5329.HEIC">
-  <img src="readme-images/WCAG1_5330.HEIC">
-  <img src="readme-images/WCAG1_5332.HEIC">
-  <img src="readme-images/WCAG1_5332.HEIC">
-  <img src="readme-images/WCAG1_5333.HEIC">
+  <img src="readme-images/IMG_5329.jpeg">
+  <img src="readme-images/IMG_5330.jpeg">
+  <img src="readme-images/IMG_5332.jpeg">
+  <img src="readme-images/IMG_5332.jpeg">
+  <img src="readme-images/IMG_5333.jpeg">
 
 
 
@@ -157,11 +157,11 @@ Main page
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  <img src="readme-images/WCAG2_5311.HEIC">
-  <img src="readme-images/WCAG2_5312.HEIC">
-  <img src="readme-images/WCAG2_5313.HEIC">
-  <img src="readme-images/WCAG2_5314.HEIC">
-  <img src="readme-images/WCAG2_5315.HEIC">
+  <img src="readme-images/IMG_5311.jpegjpeg">
+  <img src="readme-images/IMG_5312.jpegjpeg">
+  <img src="readme-images/IMG_5313.jpegjpeg">
+  <img src="readme-images/IMG_5314.jpegjpeg">
+  <img src="readme-images/IMG_5315.jpegjpeg">
 
 
 
@@ -227,15 +227,17 @@ html nog opschonen
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Tijdens het coderen van deze website ben ik voor mijn gevoel vooral verbeterd op het maken van css, en dus het stylen van een site. Vooral bij grids heb ik nu het gevoel dat ik veel geleerd heb, omdat ik in de eerste week echt hoofdpijn ervan kreeg en ik het nu wel onder de knie heb
+  <img src="readme-images/gridsvoorbeeld.png" width="375px" alt="top">
+ Ook heb ik wat meer javascript geleerd en nog meer andere extra trucjes zoals has(), vooral hier was ik blij mee toen het werkte 
+  <img src="readme-images/hasfiltering.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Ik heb aan het begin wel een carousel van plaatjes, maar op de echte site is dit met een timer en gaat hij automatisch door de articles heen. Ik had geen idee hoe ik dit kon doen en had ook niet heel veel tijd om dit te proberen fixen. Dus ik heb het maar gelaten bij de klikbare knoppen
+  <img src="readme-images/timedarticle.png" width="375px" alt="bummer">
+  Ook was het mij niet gelukt om mijn html helemaal correct te krijgen; ik had veel sections waar ik geen heading in had en kreeg dus een 'info' melding. Ik weet waar het aan ligt en hoe ik het kan fixen, maar omdat het ook mijn hele css verpest en ik niet veel tijd meer had heb ik besloten om het zo te laten
+  <img src="readme-images/infomelding.png" width="375px" alt="top">
 </details>
 
 
