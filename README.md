@@ -20,7 +20,7 @@ Rens Koster
   #### Je startniveau:
 Blauw/rood
   #### Je focus:
-Service plane
+Surface plane
 </details>
 
 
@@ -37,11 +37,11 @@ Service plane
 
   #### Screenshot(s) van de eerste pagina (small screen): 
 Main page
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Frame 5.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Redbull blikje detail pagina
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Frame 4.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -53,7 +53,13 @@ Main page
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  <img src="readme-images/WCAG1_5329.HEIC">
+  <img src="readme-images/WCAG1_5330.HEIC">
+  <img src="readme-images/WCAG1_5332.HEIC">
+  <img src="readme-images/WCAG1_5332.HEIC">
+  <img src="readme-images/WCAG1_5333.HEIC">
+
+
 
 </details>
 
@@ -65,13 +71,13 @@ Main page
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/Frame 1.png" width="375px" alt="pagina 1">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  ### 2e pagina
+  <img src="readme-images/Frame 2.png" width="375px" alt="pagina 2">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  ### hamburger menu
+  <img src="readme-images/Frame 3.png" width="375px" alt="hamburger">
 
 </details>
 
@@ -184,18 +190,26 @@ Main page
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Welke onderdelen| Hoe bronnen vermeld  | en ik dit    | en dan ik dat    |
+  | nog nodig voor | -en?                 | nog een punt | dit wil ik zeker |
+  | surfaceplane           | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+- Welke service plane elementen ik kon verwerken; 
+- carousel
+- dialog
+-video
+-reduced motion
+-intersectionobserver
+-has()
+-filter systeem
+
+-styling ziet er goed uit
+
+html nog opschonen
 
 </details>
 
@@ -237,8 +251,12 @@ Main page
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
-
+  1. https://www.youtube.com/watch?v=QSrvL8VU3fE
+  2. https://codepen.io/shooft/pen/mdBOZLz
+  3. // https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
+  4. https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll
+  5. chatgpt
+  6. https://www.youtube.com/watch?v=TAB_v6yBXIE&t=303s&ab_channel=KevinPowell
+  7.https://www.youtube.com/watch?v=2IbRtjez6ag&ab_channel=WebDevSimplified
+  8.https://www.reddit.com/r/Frontend/comments/1bjk46b/i_want_to_hide_the_text_inside_the_button/
 </details>

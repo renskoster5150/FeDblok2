@@ -22,7 +22,7 @@
                     <li><img src="images/profile.svg" alt="Profile"></li>
                 </ul>
             </section>
-            <section class="hamburgeruit">
+            <div class="hamburgeruit">
                 <div class="search-bar">
                     <input type="text" placeholder="Ontdek de Wereld van Red Bull" aria-label="Search">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -32,7 +32,7 @@
                 </div>
                 <section class="hamburgerul">
                     <ul>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li>
                             <details class="details" open>
                                 <summary>Energy Drinks</summary>
@@ -79,7 +79,7 @@
                         </article>
                         <article>
                             <h3>Red Bull Winter Edition</h3>
-                            <img src="images/cutoff_winteredi.png" alt="Red Bull Winter Edition can">
+                            <img src="images/cutoff_winteredi.png" alt="Red Bull Winter Edition can light blue">
                         </article>
                     </div>
                 </section>
@@ -111,7 +111,7 @@
                             <p>Past bij lichaam en geest</p>
                         </article>
                         <article>
-                            <img src="images/red-bull-cartoons-car.png" alt="Cartoon zebra met lipstick">
+                            <img src="images/red-bull-cartoons-car.png" alt="Cartoon zebra with lipstick">
                             <h3>Cartoons</h3>
                             <p>Cartoons van over de hele wereld</p>
                         </article>
@@ -142,9 +142,8 @@
                         <li><p>© 2024 Red Bull</p></li>
                     </ul>
                 </section>
-            </section>
+            </div>
         </nav>        
-	</section>
     </header>
     <main>
         <section class="Blikdisplay">
@@ -165,40 +164,58 @@
             <h2>RED BULL ENERGY DRINK-PRODUCTEN</h2>
             <p>Stimuleert lichaam en geest.®<p>
             <p>Werelwijd gewaardeerd door topsporters en studenten maar ook bij werk dat veel van je vraagt of bij lange autoritten.</p>
-            <div>
-                <article id="blikje1">
+            <div class="filters">    
+                <label>
+                    <input type="radio" name="filter" value="all">
+                    ALL
+                </label>
+                <label>
+                    <input type="radio" name="filter" value="zero">
+                    ZERO
+                </label>
+                <label> 
+                    <input type="radio" name="filter" value="summer">
+                    SUMMER
+                </label>
+                <label>
+                    <input type="radio" name="filter" value="winter">
+                    WINTER
+                </label>
+            </div>
+            <div class="products">
+                <article class="blikje">
                     <img src="images/NL_RBED_250_Single-Unit_close_cold_ORIGINAL_canwidth528px.png" alt="Classic red bull can">
                     <h4>Red Bull Energy Drink</h4>
                 </article>
-                <article id="blikje2">
-                    <img src="images/NL_RBSF_250_Single_Unit_close_ambient_ORIGINAL_DRES__2_.png" alt="Sugar Free red bull can">
+                <article class="zero">
+                    <img src="images/NL_RBSF_250_Single_Unit_close_ambient_ORIGINAL_DRES__2_.png" alt="Sugar Free red bull can lighter blue">
                     <h4>Red Bull Sugar Free</h4>
                 </article>
-                <article id="blikje3">
-                    <img src="images/NL_RBZ_250_Single_Unit_close_ambient_ORIGINAL_DRES__1_.png" alt="Zero Caffeine Red Bull can">
+                <article class="zero">
+                    <img src="images/NL_RBZ_250_Single_Unit_close_ambient_ORIGINAL_DRES__1_.png" alt="Zero Caffeine Red Bull can grey color">
                     <h4>Red Bull Zero</h4>
                 </article>
-                <article id="blikje4">
+                <article class="blikje">
                     <img src="images/NL_RBTE_250_Single-Unit_close_ambient_ORIGINAL_canwidth528px.png" alt="Yellow Red Bull can">
                     <h4>Red Bull Tropical Edition</h4>
                 </article>
-                <article id="blikje5">
+                <article class="blikje">
                     <img src="images/NL_RBBE_250_Single-Unit_close_ambient_ORIGINAL_canwidth528px.png" alt="Dark blue Red Bull can">
                     <h4>Red Bull Blue Edition</h4>
                 </article>
-                <article id="blikje6">
+                <article class="summer">
                     <img src="images/NL_RBRE_250_Single_Unit_close_ambient_ORIGINAL_DRES__3_.png" alt="Red Red Bull can">
                     <h4>Red Bull Red Edition</h4>
                 </article>
-                <article id="blikje7">
+                <article class="summer">
                     <img src="images/DRES_NL_APRICOT-250ml_ambient_front_redbullcom.png" alt="Orange Red Bull can">
                     <h4>Red Bull Apricot Edition</h4>
                 </article>
-                <article id="blikje8">
+                <article class="summer">
                     <img src="images/NL_CE_250ml_The_Summer_Edition_Country__Ambient_Closed_Front_COM_FULL.png" alt="Green Red bull can">
                     <h4>Red Bull Summer Edition</h4>
                 </article>
-                <article id="blikje9">
+                <article class="winter">
                     <img src="images/NL_IGB_250ml_The_Winter_Edition_Sugarfree_COUNTRY_RGB_PACKRQ-1675_Ambient_Closed_Front_COM_FULL.png" alt="Light Blue rdbull can">
                     <h4>Red Bull Winter Edition</h4>
                 </article>
@@ -231,24 +248,24 @@
                  <p>Bij Red Bull zijn we ons bewust van onze verantwoordelijkheid voor het milleu. Lees hier voor meer info over onze duurzame werkwijze:</p>
                  <a href="#">De levencyclus van een blikje</a>
                  <a href="#">Doe een quiz <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.45 10.38 9.62 4.56a.48.48 0 0 0-.7 0l-.36.35a.51.51 0 0 0 0 .71l5.12 5.12-5.12 5.11a.51.51 0 0 0 0 .71l.36.35a.48.48 0 0 0 .7 0l5.83-5.82a.51.51 0 0 0 0-.71" fill="currentColor"></path></svg></a>
-                 <img class="lifecycle-teaser_asset__Wu2DG" loading="lazy" src="https://images.ctfassets.net/lcr8qbvxj7mh/1WFjygvia245eOwpo876gF/3b4ef2a8fb7d97383d161642f70ee09e/DRS_Teaser_2023.gif"  alt="">            </article>
+                 <img class="lifecycle-teaser_asset__Wu2DG" loading="lazy" src="https://images.ctfassets.net/lcr8qbvxj7mh/1WFjygvia245eOwpo876gF/3b4ef2a8fb7d97383d161642f70ee09e/DRS_Teaser_2023.gif"  alt="storyline of people recycling their redbull cans">            </article>
         </section>
         <section class="slideshow2">
             <article>
                 <h3>Met een lege tank winnen in Red Bull XP Aflevering 2</h3>
                 <p>GAMES</p>
-                <img src="images/red-bull-xp-egbert-focus.jpeg" alt="Egbert gefocussed aan het gamen">
+                <img src="images/red-bull-xp-egbert-focus.jpeg" alt="Egbert focussed while gaming">
                 <a href="#">Lees verder</a>
             </article>
             <article>
                 <h3>Hoe Max Verstappen zijn titel in 2024 verdedigde</h3>
-                <img src="images/max-verstapen-2024-f1-world-champion-four.jpeg" alt="Max Verstappen houd 4 vingers in de lucht">
+                <img src="images/max-verstapen-2024-f1-world-champion-four.jpeg" alt="Max Verstappen sticks 4 fingers in the air">
                 <a href="#">Lees verder</a>
             </article>
             <article>
                 <h3>Dit waren de highlights van Red Bull XP aflevering 3</h3>
                 <p>GAMES</p>
-                <img src="images/red-bull-xp-qucee-fay-hosts.jpeg" alt="Qucee en Fay aan het gamen">
+                <img src="images/red-bull-xp-qucee-fay-hosts.jpeg" alt="Qucee en Fay gaming">
                 <a href="#">Lees verder</a>
             </article>
         </section>
