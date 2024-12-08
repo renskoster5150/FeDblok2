@@ -52,15 +52,18 @@ var buttonDrie = document.querySelector('.button3');
 var slideShow = document.querySelector("#slideshow1");
 var articles = document.querySelectorAll("#slideshow1 article");
 
-function scrollToArticle(index) {
+if(slideShow) {
+  buttonEen.addEventListener("click", () => scrollToArticle(0));
+  buttonTwee.addEventListener("click", () => scrollToArticle(1));
+  buttonDrie.addEventListener("click", () => scrollToArticle(2));
+
+  function scrollToArticle(index) {
     const article = articles[index];
     article.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'center' });
+  }  
+} else {
+
 }
-
-buttonEen.addEventListener("click", () => scrollToArticle(0));
-buttonTwee.addEventListener("click", () => scrollToArticle(1));
-buttonDrie.addEventListener("click", () => scrollToArticle(2));
-
 
 // video
 const video = document.querySelector(".Redbullvideo video");
@@ -76,7 +79,7 @@ if (video) {
     playButton.style.display = "block";
   });
 } else {
-  
+
 }
 
 // scroll ani
